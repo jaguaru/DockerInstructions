@@ -1,0 +1,15 @@
+#### Restart a existing docker image
+
+#### Verify the existing containers
+sudo docker ps
+sudo docker ps -a
+
+#### Download the new version of the image
+sudo docker pull <docker_image_name>
+sudo docker pull gogs/gogs
+
+#### Again find the name of the running containers
+sudo docker ps
+
+#### Run the docker image
+sudo docker run gogs/gogs
